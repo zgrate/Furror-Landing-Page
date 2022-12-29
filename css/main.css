@@ -1,13 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+
 body{
     background-color: #965fb3;
     background-image: url("../images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 10px;
+    font-family: Inconsolata, serif;
 
 }
 
 .partner {
-    border: 1px solid #00ff00;
     margin-right: 5px;
 }
