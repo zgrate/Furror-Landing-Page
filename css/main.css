@@ -4,7 +4,9 @@
 body{
     background-color: #965fb3;
     background-image: url("../images/background.png");
+    background-position: center center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     margin: 10px;
     font-family: Inconsolata, serif;
@@ -23,12 +25,17 @@ body{
     }
 }
 
-@media (max-width: 400px){
+@media (max-width: 500px){
     .break{
         display: inline;
     }
 }
 
+@media (min-width: 500px){
+    .break{
+        display: none;
+    }
+}
 
 .partner {
     margin: 3px;
